@@ -1,0 +1,181 @@
+
+.line {
+	text-decoration: line-through;
+	text-decoration-color: orange;
+}
+@font-face {
+	font-family: "Aniron";
+	src: url("Aniron/anicm___.ttf");
+
+}
+@font-face {
+	font-family: "Annatar";
+	src: url("Annatar/tngani.ttf");
+
+}
+.FTP{
+	font-family:"Aniron";
+	font-size: 20px;
+	background-color: #FF5524;
+}
+@font-face {
+	font-family: "Partybusiness";
+	src: url("party/partybusiness.ttf");
+
+}
+.FTP2 {
+	font-family:"Partybusiness";
+}
+
+.FTP a {
+	text-decoration: none; 
+	color: white;
+}
+.FTP a:hover {
+	color: white;
+	border-bottom: solid 2px white;
+	
+}
+.fontmenu {
+	font-family:"Aniron";
+	text-decoration: none;
+	color: rgb(128, 116, 113);
+	font-size: 20px;
+}
+.fontmenu:hover  {
+	color: orange;
+	border-bottom: solid orange 5px;
+}
+.fontmenu:hover .Bannatar {
+	font-family:"Annatar";
+	font-size: 15px;
+	color: orange;
+	display: inline;
+}
+body {
+	background-image: url("bg_light.png");
+}
+.annatarp {
+	font-family:"Annatar";
+	color: orange;
+	font-size: 35px;
+}
+.annatar2 {
+	font-family:"Annatar";
+	font-size: 30px;
+	color: orange;
+}
+.Bannatar {
+	font-family:"Annatar";
+	font-size: 30px;
+	color: orange;
+	display: none;
+}
+h1 {
+	font-family:"Aniron";
+	text-align: center;
+}
+.circlefirst {
+  width: 50px;
+  height: 50px;
+  border: solid orange 5px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px orange;
+  background-color: transparent;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.circlesecond {
+  width: 180px;
+  height: 180px;
+  border: solid yellow 13px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px yellow;
+  background-color: transparent;
+  margin-right: 50px;
+
+}
+
+.bouclecircle-1 {
+  width: 40px;
+  height: 40px;
+  border: solid black 5px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px black;
+  background-color: transparent;
+  position: relative;
+  margin-right: -20px;
+
+}
+
+.bouclecircle-2 {
+  width: 60px;
+  height: 60px;
+  border: solid black 5px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px black;
+  background-color: transparent;
+  position: relative;
+   margin-right: -30px;
+ 
+}
+
+.bouclecircle-3 {
+  width: 90px;
+  height: 90px;
+  border: solid black 5px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px black;
+  background-color: transparent;
+  position: relative;
+   margin-right: -30px;
+}
+
+.bouclecircle-4 {
+  width: 120px;
+  height: 120px;
+  border: solid black 5px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px black;
+  background-color: transparent;
+  position: relative;
+   margin-right: -30px;
+}
+
+.bouclecircle-5 {
+  width: 150px;
+  height: 150px;
+  border: solid black 5px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px black;
+  background-color: transparent;
+  position: relative;
+   margin-right: -30px;
+}
+
+.bouclecircle-6 {
+  width: 180px;
+  height: 180px;
+  border: solid black 5px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px black;
+  background-color: transparent;
+  position: relative;
+   margin-right: -20px;
+
+}
+.myprecious {
+	margin-top: 100px;
+	margin-left: 300px;
+}
+.please{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	align-items: center;
+	justify-content: center;
+}
+.theone {
+	margin-left: 300px;
+	margin-top: 100px;
+}

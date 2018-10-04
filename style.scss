@@ -1,0 +1,28 @@
+@mixin round ($tailleborder, $colorborder, $widthborder, $heightborder){
+  width: $widthcircle;
+  height: $heightcircle;
+  border! solid $colorborder $tailleborder;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px $colorborder;
+  background-color: transparent;
+}
+
+.circlefirst {
+  @include circle(50px, 50px , orange , 5px);
+}
+
+.circlesecond {
+  @include circle(180px, 180px , yellow , 13px);
+}
+
+
+@for $i from 1 trhough 6 {
+  .bouclecircle-#{$i}{
+    width: $i*30px;
+    height: $i*30px;
+    border: solid black 5px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px black;
+    background-color: transparent;
+  }
+}
